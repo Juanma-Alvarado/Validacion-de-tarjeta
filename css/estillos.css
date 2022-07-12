@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* =====Nav===== */
+.nav{
+    height: 3rem;
+    padding-left: 37px;
+    background: #FFCE70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.titulo{   
+    font-weight: 600;
+    font-size: 40px;
+    color: #4A6FF5;
+}
+
+.titulo1{   
+  margin: 40px 0px 20px 49px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #4A6FF5;
+}
+
+.parrafo{
+  font-weight: 600;
+  font-size: 20px;
+  color: #4A6FF5;
+  padding: 150px 0px 0px 0px;
+}
+
+/* =====Card====== */
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container1{
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 20px;
+  display: flex;
+}
+
+.card{
+  width: 381px;
+  height: 391px;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  transition: all 0.25s;
+  background: #EBEBEB;
+}
+
+.card1{
+  width: 381px;
+  height: 391px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+  transition: all 0.25s;
+  background: #fff;
+  border: 1px solid #4A6FF5;
+  border-radius: 20px;
+}
+
+
+.card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.card1:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img{
+  width: 350px;
+  height: 231px;
+  margin: 15px 15px 0px 15px;
+  border-radius: 20px;
+}
+
+
+.producto{
+  font-weight: 600;
+  margin: 0px 15px 1px 15px;
+}
+
+.valor{
+  font-size: 16px;
+  font-weight: 300;
+  color: #969696;
+  text-decoration: line-through;
+  margin: 0px 15px 1px 15px;
+}
+.valor1{
+  font-size: 20px;
+  font-weight: 600;
+  color: #F54A4A;
+  margin: 5px 15px 1px 15px;
+  
+}
+
+.bottom{
+  z-index: 40;
+  border-radius: 15px;
+  padding: 7px;
+  font-weight: 400;
+  font-size: 13px;
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  background-color: #4A6FF5;
+  margin: 0px 15px 0px 15px;
+}
+.bottom:hover{
+  color: #fff;
+  background-color: #12309B;
+}
+
+/* ====Footer==== */
+.footer{
+  margin: 50px 0px 0px 0px;
+  padding: 40px;
+  color: #ffffff;
+  background: #FFCE70;
+  font-weight: 600;
+}
