@@ -135,6 +135,57 @@ body {
   background-color: #12309B;
 }
 
+/* Formulario */
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formulario .elemento label{
+  color:#4A6FF5;
+  font-weight:500;
+  margin-left:40px; 
+  padding:5px;
+}
+
+.formulario .elemento input{
+  width:500px;
+  height:40px;
+  left: 29px;
+  top: 834px;
+
+  border: 1px solid #4A6FF5;
+  border-radius: 9px;
+  margin-left: 40px;
+  display:block;
+}
+
+input::placeholder{
+  padding-left:10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.botonpagar{
+  color: #fff;
+  background-color: #516edb;
+  padding: 14px 45px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  margin:20px 40px;
+  text-decoration: none;
+  border: none;
+}
+
+.botonpagar:hover{
+  background-color: #1d3cab;
+} 
+
 /* ====Footer==== */
 .footer{
   margin: 50px 0px 0px 0px;

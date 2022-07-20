@@ -43,12 +43,43 @@
         </div>
     </div>
 
+    <form class="formulario">
+
+        <div class="elemento">
+            <label for="numTarjeta">Número Tarjeta de Crédito</label>
+            <input type="text" id="numTarjeta" placeholder="xxxx xxxx xxxx xxxx" maxlength="16" minlength="16" required>
+            <small>Error</small>
+            <br>
+        </div>
+       
+        <div class="elemento">
+            <label for="nombre">Titular de la Tarjeta de Crédito</label>
+            <input type="text" id="nombre" placeholder="Escribe el nombre del titular">
+            <small>Error</small>
+            <br>
+        </div>
+    
+        <div class="elemento">
+            <label for="fechaC">Fecha de Caducidad</label>
+            <input type="text" id="fechaC"  placeholder="MM/AA">
+            <small>Error</small>
+            <br>
+        </div>
+    
+        <div class="elemento">
+            <label for="CVV">Dígito de Verificación</label>
+            <input type="text" id="CVV"  placeholder="CVV" maxlength="4" minlength="3" required="true">
+            <small>Error</small>
+        </div>
+        <!-- <button type="button" class="botonpagar" onclick="captura"> Pagar </button> -->
+        <button type="button" class="botonpagar" id="botonPagar"> Pagar </button>
+    </form>
     
 
     <footer class="footer">
         <center><p>by Juan Manuel Alvarado<a href=""></a></p></center>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
